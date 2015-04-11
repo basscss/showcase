@@ -1,0 +1,11 @@
+{
+  "name": "showcase",
+  "version": "1.0.0",
+  "description": "Showcase of sites built with Basscss",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT"
+}
