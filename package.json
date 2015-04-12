@@ -1,11 +1,20 @@
 {
   "name": "showcase",
   "version": "1.0.0",
-  "description": "Showcase of sites built with Basscss",
+  "description": "A showcase of sites built with Basscss",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "start": "node build"
   },
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^3.6.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "page-footer": "git://github.com/basscss/page-footer",
+    "page-header": "git://github.com/basscss/page-header"
+  }
 }
