@@ -1,6 +1,6 @@
 {
   "name": "showcase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A showcase of sites built with Basscss",
   "main": "index.js",
   "scripts": {
