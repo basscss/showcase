@@ -4,17 +4,23 @@
   "description": "A showcase of sites built with Basscss",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test",
-    "start": "node build"
+    "dev": "webpack-dev-server --progress --colors",
+    "clean": "rm bundle.js",
+    "prod": "webpack -p --progress --colors",
+    "start": "npm run dev"
   },
   "author": "Brent Jackson",
   "license": "MIT",
-  "devDependencies": {
-    "lodash": "^3.6.0",
-    "mocha": "^2.2.4"
-  },
   "dependencies": {
-    "page-footer": "git://github.com/basscss/page-footer",
-    "page-header": "git://github.com/basscss/page-header"
+    "babel-loader": "^5.2.2",
+    "basscss": "^7.0.0",
+    "basscss.github.io": "github:basscss/basscss.github.io",
+    "blk": "^3.1.0",
+    "css-loader": "^0.15.1",
+    "cssnext-loader": "^1.0.1",
+    "file-loader": "^0.8.4",
+    "static-site-generator-webpack-plugin": "^1.0.0",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
   }
 }
