@@ -13,6 +13,7 @@ class Index extends React.Component {
             <div key={i}
               className='col-6 md-col-4 border-box px2 mb4'>
               <a href={theme.url}
+                target='_blank'
                 className='block color-inherit'>
                 <img src={cdn + theme.image}
                   className='border' />

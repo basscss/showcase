@@ -24,6 +24,24 @@ module.exports = {
       image: 'screenshot-assembly-discover-2015-03-03-09-24-09-640.jpg'
     },
     {
+      title: 'Front-End United for Leokz',
+      url: 'http://frontendunited.io/leokzw/index.en.html',
+      description: 'Developers united for Leonardo Konarzewski',
+      image: 'screenshot-frontendunited.io-leokzw-index.en.html-2015-07-07-03-48-23-640.jpg'
+    },
+    {
+      title: 'MDI.ninja',
+      url: 'http://mdi.ninja/',
+      description: 'Mount Desert Island Like a Ninja',
+      image: 'screenshot-mdi.ninja--2015-07-07-03-49-01-640.jpg'
+    },
+    {
+      title: 'Noodles',
+      url: 'http://www.getnoodl.es/',
+      description: 'Keep, cook, and share all your recipes with Noodles.',
+      image: 'screenshot-www.getnoodl.es--2015-07-07-03-41-57-640.jpg'
+    },
+    {
       title: 'Monodraw for Mac',
       url: 'http://monodraw.helftone.com/',
       description: 'Powerful ASCII art editor designed for the Mac.',
