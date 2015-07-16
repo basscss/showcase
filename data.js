@@ -75,7 +75,7 @@ module.exports = {
       title: 'Linknest',
       url: 'https://linknest.cc/',
       description: 'Bookmarks made simple',
-      image: 'screenshot-linknest.cc-2015-03-03-09-26-47-640.jpg'
+      image: 'Screenshot-https:--linknest.cc---2015-07-16-03-21-04-800.jpg'
     },
     {
       title: 'CSS Stats',
