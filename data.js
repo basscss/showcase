@@ -12,10 +12,16 @@ module.exports = {
   cdn: 'http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/',
   sites: [
     {
+      title: 'StatShot',
+      url: 'https://statshot.co/',
+      description: 'Simple and clear Instagram™ stats for you or your brand. Straight to your inbox.',
+      image: 'Screenshot-https:--statshot.co---2015-08-30-01-08-14-800.jpg'
+    },
+    {
       title: 'Nodeconf',
       url: 'http://nodeconf.com/',
       description: 'The longest running community driven conference for the Node community.',
-      image: 'screenshot-nodeconf-2015-03-03-09-23-07-640.jpg '
+      image: 'screenshot-nodeconf-2015-03-03-09-23-07-640.jpg'
     },
     {
       title: 'Assembly',
@@ -28,6 +34,12 @@ module.exports = {
       url: 'http://frontendunited.io/leokzw/index.en.html',
       description: 'Developers united for Leonardo Konarzewski',
       image: 'screenshot-frontendunited.io-leokzw-index.en.html-2015-07-07-03-48-23-640.jpg'
+    },
+    {
+      title: 'Brandon Pierce',
+      url: 'http://brandonjpierce.com/',
+      description: 'Brandon Pierce - Developer, Designer, & Consultant',
+      image: 'Screenshot-brandonjpierce.com---2015-08-30-01-04-33-800.jpg'
     },
     {
       title: 'MDI.ninja',
