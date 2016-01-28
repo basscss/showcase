@@ -24,12 +24,6 @@ module.exports = {
       image: 'screenshot-nodeconf-2015-03-03-09-23-07-640.jpg'
     },
     {
-      title: 'Assembly',
-      url: 'http://assembly.com/',
-      description: 'Turn ideas into great products with people around the world.',
-      image: 'screenshot-assembly-discover-2015-03-03-09-24-09-640.jpg'
-    },
-    {
       title: 'Front-End United for Leokz',
       url: 'http://frontendunited.io/leokzw/index.en.html',
       description: 'Developers united for Leonardo Konarzewski',
