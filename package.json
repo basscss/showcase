@@ -2,20 +2,18 @@
   "name": "showcase",
   "version": "1.0.1",
   "description": "A showcase of sites built with Basscss",
-  "main": "index.js",
   "scripts": {
-    "start": "static-react components/Root.jsx -p data.js > index.html"
+    "start": "static-react components/Root.js -p data.js > index.html"
   },
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
-    "basscss": "^7.0.0",
-    "basscss.github.io": "github:basscss/basscss.github.io",
-    "blk": "^3.1.0"
+    "basscss": "^8.0.0-beta5"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
+    "blk": "^3.1.2",
     "react": "^0.14.7",
     "static-react": "^3.0.0"
   },
