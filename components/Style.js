@@ -3,6 +3,10 @@ import React from 'react'
 
 const css = `
 .color-inherit { color: inherit }
+@media screen and (min-width: 96em) {
+  .xl-col-3 { width: 25% }
+  .xl-col-2 { width: 16.667% }
+}
 .hover-grow {
   position: relative;
   transition: transform .125s ease-out;
@@ -27,6 +31,52 @@ const css = `
   opacity: 1;
 }
 .border-gray { border-color: #ddd }
+
+#carbonads {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: left;
+}
+
+#carbonads a,
+#carbonads a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#carbonads span { display: block }
+
+#carbonads > span::before,
+#carbonads > span::after {
+  content: '';
+  display: table;
+}
+
+#carbonads > span::after {
+  clear: both;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: .5em;
+}
+
+.carbon-img > img { display: block }
+.carbon-text { overflow: hidden }
+
+.carbon-poweredby {
+  float: left;
+  margin-top: .25em;
+  opacity: 0.5;
+}
+
+@media (min-width: 40em) {
+  #carbonads {
+    max-width: 320px;
+  }
+}
+
 `
 
 const Style = () => (

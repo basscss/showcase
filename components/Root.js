@@ -3,6 +3,9 @@ import React from 'react'
 import { CarbonAd } from 'blk'
 import Style from './Style'
 import Index from './Index'
+import Header from './Header'
+import Footer from './Footer'
+import GA from './GA'
 
 class Root extends React.Component {
 
@@ -21,16 +24,11 @@ class Root extends React.Component {
         </head>
         <body>
           <div className='px3'>
-            <header className='clearfix'>
-              <h1>Basscss Showcase</h1>
-              <CarbonAd />
-            </header>
+            <Header />
             <Index {...this.props} />
+            <Footer />
           </div>
-          {/*
-          <Footer {...this.props} wide />
-          <script dangerouslySetInnerHTML={{ __html: ga }} />
-          */}
+          <GA />
         </body>
       </html>
     )

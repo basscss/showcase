@@ -1,5 +1,9 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"/><title>Showcase</title><meta name="description" content="Low-level CSS toolkit"/><link href="https://npmcdn.com/basscss-basic@1.0.0/index.css" rel="stylesheet"/><link href="https://npmcdn.com/basscss@8.0.0-beta5/css/basscss.min.css" rel="stylesheet"/><style>
 .color-inherit { color: inherit }
+@media screen and (min-width: 96em) {
+  .xl-col-3 { width: 25% }
+  .xl-col-2 { width: 16.667% }
+}
 .hover-grow {
   position: relative;
   transition: transform .125s ease-out;
@@ -24,41 +28,57 @@
   opacity: 1;
 }
 .border-gray { border-color: #ddd }
-</style></head><body><div class="px3"><header class="clearfix"><h1>Basscss Showcase</h1><div><style>
-      #carbonads {
-        display: inline-block;
-        font-size: 14px;
-        line-height: 1.25;
-        text-align: left;
-      }
-      #carbonads a,
-      #carbonads a:hover {
-        text-decoration: none;
-        color: inherit;
-      }
-      #carbonads span { display: block }
-      #carbonads > span::before,
-      #carbonads > span::after {
-        content: '';
-        display: table;
-      }
-      #carbonads > span::after {
-        clear: both;
-      }
-      .carbon-img {
-        float: left;
-        margin-right: .5em;
-      }
-      .carbon-img > img { display: block }
-      .carbon-text { overflow: hidden }
-      .carbon-poweredby {
-        float: left;
-        margin-top: .25em;
-        opacity: 0.5;
-      }
-      @media (min-width: 40em) {
-        #carbonads {
-          max-width: 320px;
-        }
-      }
-    </style><script async="" type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=jxnblkcom" id="_carbonads_js"></script></div></header><div class="flex flex-wrap items-stretch mxn2 py3"><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="https://statshot.co/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/Screenshot-https:--statshot.co---2015-08-30-01-08-14-800.jpg"/><h3 class="h4 mb0">StatShot</h3><div class="h5">Simple and clear Instagram™ stats for you or your brand. Straight to your inbox.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://nodeconf.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-nodeconf-2015-03-03-09-23-07-640.jpg"/><h3 class="h4 mb0">Nodeconf</h3><div class="h5">The longest running community driven conference for the Node community.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://frontendunited.io/leokzw/index.en.html" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-frontendunited.io-leokzw-index.en.html-2015-07-07-03-48-23-640.jpg"/><h3 class="h4 mb0">Front-End United for Leokz</h3><div class="h5">Developers united for Leonardo Konarzewski</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://brandonjpierce.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/Screenshot-brandonjpierce.com---2015-08-30-01-04-33-800.jpg"/><h3 class="h4 mb0">Brandon Pierce</h3><div class="h5">Brandon Pierce - Developer, Designer, &amp; Consultant</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://mdi.ninja/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-mdi.ninja--2015-07-07-03-49-01-640.jpg"/><h3 class="h4 mb0">MDI.ninja</h3><div class="h5">Mount Desert Island Like a Ninja</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://www.getnoodl.es/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-www.getnoodl.es--2015-07-07-03-41-57-640.jpg"/><h3 class="h4 mb0">Noodles</h3><div class="h5">Keep, cook, and share all your recipes with Noodles.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://monodraw.helftone.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/monodraw-640.jpg"/><h3 class="h4 mb0">Monodraw for Mac</h3><div class="h5">Powerful ASCII art editor designed for the Mac.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://singlesclub.fm/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/singlesclub-640.jpg"/><h3 class="h4 mb0">Singles Club</h3><div class="h5">Part record club. Part music journal.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://lachlanjc.me" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-lachlanjc--2015-02-24-12-07-33-640.jpg"/><h3 class="h4 mb0">Lachlan Campbell</h3><div class="h5">Personal site of Lachlan Campbell</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://pixyll.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/pixyll-640.jpg"/><h3 class="h4 mb0">Pixyll</h3><div class="h5">A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://www.nurturingability.com.au/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/nurturingability-640.jpg"/><h3 class="h4 mb0">Nurturing Ability</h3><div class="h5">Helping our Most Helpless One Family at a Time</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="https://linknest.cc/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/Screenshot-https:--linknest.cc---2015-07-16-03-21-04-800.jpg"/><h3 class="h4 mb0">Linknest</h3><div class="h5">Bookmarks made simple</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4"><a href="http://cssstats.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/cssstats-640.jpg"/><h3 class="h4 mb0">CSS Stats</h3><div class="h5">Potentially interesting stats on stylesheets</div></a></div></div></div></body></html>
+
+#carbonads {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: left;
+}
+
+#carbonads a,
+#carbonads a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#carbonads span { display: block }
+
+#carbonads > span::before,
+#carbonads > span::after {
+  content: '';
+  display: table;
+}
+
+#carbonads > span::after {
+  clear: both;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: .5em;
+}
+
+.carbon-img > img { display: block }
+.carbon-text { overflow: hidden }
+
+.carbon-poweredby {
+  float: left;
+  margin-top: .25em;
+  opacity: 0.5;
+}
+
+@media (min-width: 40em) {
+  #carbonads {
+    max-width: 320px;
+  }
+}
+
+</style></head><body><div class="px3"><header class="flex flex-wrap items-center py4"><h1 class="m0">Basscss Showcase</h1><div class="py2 ml-auto"><script id="_carbonads_js" async="" type="text/javascript" src="http://cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=basscsscom"></script></div></header><div class="flex flex-wrap items-stretch mxn2 py3"><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="https://statshot.co/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/Screenshot-https:--statshot.co---2015-08-30-01-08-14-800.jpg"/><h3 class="h4 mb0">StatShot</h3><div class="h5">Simple and clear Instagram™ stats for you or your brand. Straight to your inbox.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://nodeconf.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-nodeconf-2015-03-03-09-23-07-640.jpg"/><h3 class="h4 mb0">Nodeconf</h3><div class="h5">The longest running community driven conference for the Node community.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://frontendunited.io/leokzw/index.en.html" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-frontendunited.io-leokzw-index.en.html-2015-07-07-03-48-23-640.jpg"/><h3 class="h4 mb0">Front-End United for Leokz</h3><div class="h5">Developers united for Leonardo Konarzewski</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://brandonjpierce.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/Screenshot-brandonjpierce.com---2015-08-30-01-04-33-800.jpg"/><h3 class="h4 mb0">Brandon Pierce</h3><div class="h5">Brandon Pierce - Developer, Designer, &amp; Consultant</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://mdi.ninja/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-mdi.ninja--2015-07-07-03-49-01-640.jpg"/><h3 class="h4 mb0">MDI.ninja</h3><div class="h5">Mount Desert Island Like a Ninja</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://www.getnoodl.es/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-www.getnoodl.es--2015-07-07-03-41-57-640.jpg"/><h3 class="h4 mb0">Noodles</h3><div class="h5">Keep, cook, and share all your recipes with Noodles.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://monodraw.helftone.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/monodraw-640.jpg"/><h3 class="h4 mb0">Monodraw for Mac</h3><div class="h5">Powerful ASCII art editor designed for the Mac.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://singlesclub.fm/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/singlesclub-640.jpg"/><h3 class="h4 mb0">Singles Club</h3><div class="h5">Part record club. Part music journal.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://lachlanjc.me" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/screenshot-lachlanjc--2015-02-24-12-07-33-640.jpg"/><h3 class="h4 mb0">Lachlan Campbell</h3><div class="h5">Personal site of Lachlan Campbell</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://pixyll.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/pixyll-640.jpg"/><h3 class="h4 mb0">Pixyll</h3><div class="h5">A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://www.nurturingability.com.au/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/nurturingability-640.jpg"/><h3 class="h4 mb0">Nurturing Ability</h3><div class="h5">Helping our Most Helpless One Family at a Time</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="https://linknest.cc/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/Screenshot-https:--linknest.cc---2015-07-16-03-21-04-800.jpg"/><h3 class="h4 mb0">Linknest</h3><div class="h5">Bookmarks made simple</div></a></div><div class="flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4"><a href="http://cssstats.com/" target="_blank" class="block p1 color-inherit text-decoration-none hover-grow border rounded border-gray"><img src="http://d2v52k3cl9vedd.cloudfront.net/basscss/assets/cssstats-640.jpg"/><h3 class="h4 mb0">CSS Stats</h3><div class="h5">Potentially interesting stats on stylesheets</div></a></div></div><footer class="h5 flex py4"><a href="http://basscss.com" class="h6 caps bold py1 color-inherit text-decoration-none">basscss.com</a><a href="http://jxnblk.com" class="h6 caps bold py1 ml-auto color-inherit text-decoration-none">Made by Jxnblk</a></footer></div><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4603832-12', 'auto');
+ga('send', 'pageview');
+</script></body></html>

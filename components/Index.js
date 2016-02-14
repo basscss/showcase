@@ -11,7 +11,7 @@ class Index extends React.Component {
         {this.props.sites.map(function(theme, i) {
           return (
             <div key={i}
-              className='flex col-12 sm-col-6 md-col-4 lg-col-3 px2 mb4'>
+              className='flex col-12 sm-col-6 md-col-4 lg-col-3 xl-col-2 px2 mb4'>
               <a href={theme.url}
                 target='_blank'
                 className='block p1 color-inherit text-decoration-none hover-grow border rounded border-gray'>
